@@ -1,0 +1,63 @@
+print('olá mundo')
+#Linha de comentário
+"""
+docsstrings
+comentário de varias linhas
+
+4 dados primitivos
+-numeros inteiros(int)
+-numeros decimas(float)
+-booleanos(bool)
+-texto(string)
+"""
+print("ana tem", 18, "anos", sep="...", end="\n\n\n\n\n")
+print(-10, 4, 8, 16, 358) #int
+print(4.5, 8.2, -14.9) #float
+print(True, False) #bool - 1bit
+
+print(""""representação de multiplas
+linhas"
+      """)
+
+#escape char- \
+print("ola, \"mundo\"")
+print("texto\nde duas linhas")
+print("texto \\novo")
+print("texto\tdeslocado")
+
+# o resultado do input é sempre uma string
+print(input("informe o seu nome:"))
+n = input("informe a sua idade:")
+print("também tenho",n)
+
+
+#type hint
+idade : int = 16
+print(idade)
+
+ # python nao possui o conceito de constante
+PI = 3.1415
+TAM_MAXIMO= 15
+
+#capslock serve para gerar constantes
+
+#print("ola,", n)
+n = "Enzin"
+print("ola,", n)
+
+#idade = int(input(""))
+idade = int(input("informe a sua idade:"))
+print(str(4.5))
+print(float("10.5"))
+print(float(8))
+
+#todo dado diferente de 0, 0.0, "",etc. são considerados como true
+print(bool(""))
+print(bool("ola, mundo"))
+print(bool(0))
+print(bool("36.95"))
+
+x = 10
+
+if x:
+    print("diferente de zero")
