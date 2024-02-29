@@ -1,0 +1,19 @@
+Exercício 1: 
+
+import math   # Pesquisei no docspython esse comando.
+a = float(input("a: "))
+b = float(input("b: "))
+c = float(input("c: "))
+
+delta = (b ** 2) - (4 * a * c)
+
+Raiz_1 = (-b + math.sqrt(delta)) / (2 * a)
+Raiz_2 = (-b - math.sqrt(delta)) / (2 * a)
+
+print("Raiz 1:", Raiz_1)
+print("Raiz 2:", Raiz_2)
+----------------------------------------------
+----------------------------------------------
+Exercício 2:
+
+
