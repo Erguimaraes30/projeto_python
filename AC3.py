@@ -1,3 +1,5 @@
+#Exercicío 1:
+
 def determina_tipo_triangulo(a, b, c):
    
     if (a + b < c) or (a + c < b) or (b + c < a):
@@ -19,6 +21,8 @@ testa_triangulo()
 
 print("-" * 30)
 print("-" * 30)
+
+#Exercicío 2:
 
 def dia_semana(d):
     if d == 1:
@@ -52,6 +56,8 @@ teste_semana()
     
 print("-" * 30)
 print("-" * 30)
+
+#Exercicío 3:
 
 def soma(a, b):
     return a + b
